@@ -7,8 +7,10 @@ import datetime as dt
 import sys, json, pylab, mpld3
 
 
+with open('./data.json') as data_file:
+    data = json.load(data_file)
 # Receive the data passed from runApp.js
-data = json.load(sys.stdin)
+#data = json.load(sys.stdin)
 
 
 # Parse the data for calories and weight
@@ -24,29 +26,16 @@ caloriesValues = [day['value'] for day in caloriesData]
 # weight
 weightTimeSeries = fitbitData[1]['bodyTimeSeries-weight']
 weightData = weightTimeSeries[0]['body-weight']
-weightDates_string = [day['dateTime'] for day in weightData]
-weightDates_dt = [dt.datetime.strptime(date, "%Y-%m-%d").date() for date in weightDates_string]
-weightValues = [round(float(day['value']) * 2.2, 2) for day in weightData] # Converting to Lbs.
+weightDates = [day['dateTime'] for day in weightData]
+weightValues = [day['value'] for day in weightData]
 
-# Plot the calories graph and convert to HTML
+
+# Plot the graph
 plt.plot(caloriesDates_dt, caloriesValues, '-o')
-plt.xlabel('Date')
-plt.ylabel('Calories')
-plt.title('Calories Burned')
 fig = plt.gcf()
-html_calories = mpld3.fig_to_html(fig)
-plt.close()
 
-# Plot the weight graph and convert to HTML
-plt.plot(weightDates_dt, weightValues, '-o')
-plt.xlabel('Date')
-plt.ylabel('Lbs.')
-plt.title('Weight')
-fig = plt.gcf()
-html_weight = mpld3.fig_to_html(fig)
-
-# Combine the two graphs
-html = '<div>' + html_calories + '</div><br><div>' + html_weight + '</div>'
+# Convert the plot to HTML
+html = mpld3.fig_to_html(fig)
 
 # Output
 print(json.dumps({'html': html}))
