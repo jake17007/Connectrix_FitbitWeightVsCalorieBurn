@@ -262,7 +262,7 @@
               ]
             },
             "headers": {
-              "date": "Thu, 29 Jun 2017 21:28:12 GMT",
+              "date": "Fri, 30 Jun 2017 14:08:40 GMT",
               "content-type": "application/json;charset=UTF-8",
               "transfer-encoding": "chunked",
               "connection": "close",
@@ -271,10 +271,10 @@
               "content-language": "en",
               "fitbit-rate-limit-limit": "150",
               "fitbit-rate-limit-remaining": "150",
-              "fitbit-rate-limit-reset": "1908",
+              "fitbit-rate-limit-reset": "3080",
               "x-frame-options": "SAMEORIGIN",
               "server": "cloudflare-nginx",
-              "cf-ray": "376bf9628c1f5576-ORD"
+              "cf-ray": "3771b2ee6d9b71d3-ORD"
             },
             "request": {
               "uri": {
@@ -293,7 +293,7 @@
               },
               "method": "GET",
               "headers": {
-                "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTc3OUQiLCJhdWQiOiIyMjg3M0siLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJhY3QgcnNldCBybG9jIHJ3ZWkgcmhyIHJwcm8gcm51dCByc2xlIiwiZXhwIjoxNDk4NzgyMDI2LCJpYXQiOjE0OTg3NTMyMjZ9.wE8_JqVAPAciuKqJv2j8zmPxCV0b07oL3sWxCgg82ik",
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTc3OUQiLCJhdWQiOiIyMjg3M0siLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJhY3QgcnNldCBybG9jIHJ3ZWkgcmhyIHJudXQgcnBybyByc2xlIiwiZXhwIjoxNDk4ODYwMjc0LCJpYXQiOjE0OTg4MzE0NzR9.2LnKIYQFgbDHlfxuFe0OFbDF_fTv53TXbtZ3znryXKI",
                 "accept": "application/json"
               }
             }
@@ -561,7 +561,7 @@
               ]
             },
             "headers": {
-              "date": "Thu, 29 Jun 2017 21:28:12 GMT",
+              "date": "Fri, 30 Jun 2017 14:08:40 GMT",
               "content-type": "application/json;charset=UTF-8",
               "transfer-encoding": "chunked",
               "connection": "close",
@@ -570,10 +570,10 @@
               "content-language": "en",
               "fitbit-rate-limit-limit": "150",
               "fitbit-rate-limit-remaining": "150",
-              "fitbit-rate-limit-reset": "1909",
+              "fitbit-rate-limit-reset": "3080",
               "x-frame-options": "SAMEORIGIN",
               "server": "cloudflare-nginx",
-              "cf-ray": "376bf9628c1a5576-ORD"
+              "cf-ray": "3771b2ee6cd47167-ORD"
             },
             "request": {
               "uri": {
@@ -592,7 +592,7 @@
               },
               "method": "GET",
               "headers": {
-                "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTc3OUQiLCJhdWQiOiIyMjg3M0siLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJhY3QgcnNldCBybG9jIHJ3ZWkgcmhyIHJwcm8gcm51dCByc2xlIiwiZXhwIjoxNDk4NzgyMDI2LCJpYXQiOjE0OTg3NTMyMjZ9.wE8_JqVAPAciuKqJv2j8zmPxCV0b07oL3sWxCgg82ik",
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTc3OUQiLCJhdWQiOiIyMjg3M0siLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJhY3QgcnNldCBybG9jIHJ3ZWkgcmhyIHJudXQgcnBybyByc2xlIiwiZXhwIjoxNDk4ODYwMjc0LCJpYXQiOjE0OTg4MzE0NzR9.2LnKIYQFgbDHlfxuFe0OFbDF_fTv53TXbtZ3znryXKI",
                 "accept": "application/json"
               }
             }
