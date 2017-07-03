@@ -12,7 +12,7 @@ data = json.load(sys.stdin)
 
 
 # Parse the data for calories and weight
-fitbitData = data[10]['fitbit']
+fitbitData = data[0]['fitbit']
 
 # calories
 caloriesTimeSeries = fitbitData[0]['activityTimeSeries-calories']
